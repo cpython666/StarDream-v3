@@ -49,10 +49,10 @@ export default {
     </div>
     <div>
         <div class="zfb_i">
-            <img src="../assets/imgs/admire/2.jpg" />
+            <img src="/assets/imgs/admire/2.jpg" />
         </div>
         <div class="wx_i">
-            <img src="../assets/imgs/admire/1.jpg" />
+            <img src="/assets/imgs/admire/1.jpg" />
         </div>
     </div>
     <span>

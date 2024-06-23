@@ -10,16 +10,16 @@
 <div id="main">
   <!-- <div id="left" v-show="!this.$store.state.isJianYue"> -->
   <div id="left">
-    <SiderBox iconUrl="imgs/login.png" className="登录" @click="sendPri('登录功能尚未开发，敬请期待~')"/>
+    <SiderBox iconUrl="/assets/imgs/login.png" className="登录" @click="sendPri('登录功能尚未开发，敬请期待~')"/>
     <div id="sider">
-      <SiderBox iconUrl="imgs/home.png" className="主页" @click="turn('index')"/>
-      <SiderBox iconUrl="imgs/code.png" className="程序员" @click="turn('code')"/>
-      <SiderBox iconUrl="imgs/design.png" className="设计" @click="turn('design')"/>
-      <SiderBox iconUrl="imgs/fish.png" className="摸鱼" @click="turn('play')"/>
+      <SiderBox iconUrl="/assets/imgs/home.png" className="主页" @click="turn('index')"/>
+      <SiderBox iconUrl="/assets/imgs/code.png" className="程序员" @click="turn('code')"/>
+      <SiderBox iconUrl="/assets/imgs/design.png" className="设计" @click="turn('design')"/>
+      <SiderBox iconUrl="/assets/imgs/fish.png" className="摸鱼" @click="turn('play')"/>
     </div>
     <div>
-      <SiderBox iconUrl="imgs/coffee.png" className="" @click="showAdmire()"/>
-      <SiderBox iconUrl="imgs/setting.png" className=""  @click="sendPri('设置功能尚未开发，敬请期待~')"/>
+      <SiderBox iconUrl="/assets/imgs/coffee.png" className="" @click="showAdmire()"/>
+      <SiderBox iconUrl="/assets/imgs/setting.png" className=""  @click="sendPri('设置功能尚未开发，敬请期待~')"/>
     </div>
   </div>
 <AdmirePage/>

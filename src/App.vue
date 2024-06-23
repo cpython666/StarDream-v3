@@ -112,17 +112,17 @@ export default {
     <li>
         <div>更换壁纸</div>
         <div class="imgs">
-            <img src="./assets/imgs/download.png" title="下载壁纸" @click="saveImg"/>
-            <img src="./assets/imgs/change.png" title="更换壁纸" @click="change()"/>
+            <img src="/assets/imgs/download.png" title="下载壁纸" @click="saveImg"/>
+            <img src="/assets/imgs/change.png" title="更换壁纸" @click="change()"/>
         </div>
     </li>
     <li   @click="sendPri('保存功能尚未开发，敬请期待~')">
         <div>保存配置</div>
-        <img src="./assets/imgs/cloud.png"/>
+        <img src="/assets/imgs/cloud.png"/>
     </li>
     <li  @click="sendPri('设置功能尚未开发，敬请期待~')">
         <div>设置</div>
-        <img src="./assets/imgs/setting.png"/>
+        <img src="/assets/imgs/setting.png"/>
     </li>
     </ul>
 </div>

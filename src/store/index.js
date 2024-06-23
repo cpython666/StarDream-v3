@@ -4,15 +4,12 @@ import { createStore } from 'vuex'
 const store = createStore({
   state () {
     return {
-      // static: 'http://www.stardream.vip/stardream/assets/',
-      static:'./src/assets/',
-
       isBgVideo: false,
-      bgVideoUrl:['./src/assets/videos/0.mp4','./src/assets/videos/1.mp4','./src/assets/videos/2.mp4','./src/assets/videos/3.mp4',
-      './src/assets/videos/4.mp4','./src/assets/videos/5.mp4','./src/assets/videos/6.mp4','./src/assets/videos/7.mp4',
-      './src/assets/videos/8.mp4','./src/assets/videos/9.mp4',],
+      bgVideoUrl:['/assets/videos/0.mp4','/assets/videos/1.mp4','/assets/videos/2.mp4',
+      '/assets/videos/4.mp4','/assets/videos/5.mp4','/assets/videos/6.mp4',
+      '/assets/videos/8.mp4','/assets/videos/9.mp4',],
       isBgImage:true,
-      bgImageUrl:['./src/assets/imgs/bgimage/1.jpg','./src/assets/imgs/bgimage/1.png','./src/assets/imgs/bgimage/2.png','./src/assets/imgs/bgimage/3.png'],
+      bgImageUrl:['/assets/imgs/bgimage/1.jpg','/assets/imgs/bgimage/1.png','/assets/imgs/bgimage/2.png','/assets/imgs/bgimage/3.png'],
       isJianYue:false,
       appNum:0
     }

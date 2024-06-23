@@ -36,7 +36,8 @@ export default {
     props:['iconUrl','className'],
     data() {
         return {
-            iconUrl_:this.$store.state.static+this.iconUrl,
+            iconUrl_:this.iconUrl,
+            // iconUrl_:this.$store.state.static+this.iconUrl,
             className_:this.className
         }
     },

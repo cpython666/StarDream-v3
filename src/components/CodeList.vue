@@ -22,7 +22,7 @@ export default {
         },
         getIndex(){
             var _this=this;
-            this.$http.get('./src/assets/json/code.json').then(function(res){
+            this.$http.get('/assets/json/code.json').then(function(res){
                 // console.log(res.data.code)
                 _this.apps=res.data.code
                 _this.$store.commit('computeAppNum',res.data.code.length)

@@ -20,7 +20,7 @@ export default {
 </script>
 <template>
 <div class="appbox">
-<img :src="this.$store.state.static+app['img_url']" @click="this.$store.commit('turnWeb',app.url)"/>
+<img :src="app['img_url']" @click="this.$store.commit('turnWeb',app.url)"/>
 <div class="webname">
     {{ app.name }}
 </div>

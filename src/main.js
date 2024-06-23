@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import '../src/style.css'
+import './style.css'
 
 import router from './router/index.js'
 
@@ -14,7 +14,7 @@ import 'echarts'
 import $ from 'jquery'
 window.$=$
 
-import alerts from './assets/js/alerts'
+import alerts from './js/alerts.js'
 window.$alerts = alerts
 
 const app=createApp(App)

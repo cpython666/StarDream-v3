@@ -1,62 +1,62 @@
 <template>
 <div id="search">
     <div id="engines">
-        <img id='engine' src="../assets/imgs/engines/baidu.png" title="点我更换引擎" class="https://www.baidu.com/s?wd=">
-        <img id='tri' src="../assets/imgs/engines/triangle.png">
+        <img id='engine' src="/assets/imgs/engines/baidu.png" title="点我更换引擎" class="https://www.baidu.com/s?wd=">
+        <img id='tri' src="/assets/imgs/engines/triangle.png">
     </div>
     <input id="search_input" :placeholder="sayings[Math.floor(Math.random() * sayings.length)]">
     <div id="to-search">
-        <img src="../assets/imgs/engines/search.png">
+        <img src="/assets/imgs/engines/search.png">
     </div>
 </div>
 <div id="change">
     <div class='set' id="https://www.baidu.com/s?wd=">
-        <img src="../assets/imgs/engines/baidu.png">
+        <img src="/assets/imgs/engines/baidu.png">
         <div>百度</div>
     </div>
 
     <div class="set" id="https://github.com/search?q=">
-        <img src="../assets/imgs/engines/github.png">
+        <img src="/assets/imgs/engines/github.png">
         <div>GitHub</div>
     </div>
     <div class="set" id="https://search.bilibili.com/all?keyword=">
-        <img src="../assets/imgs/engines/bilibili.png">
+        <img src="/assets/imgs/engines/bilibili.png">
         <div class="github">哔哩哔哩</div>
     </div>
 
     <div class="set" id="https://www.google.com/search?ie=UTF-8&q=">
-        <img src="../assets/imgs/engines/google.png">
+        <img src="/assets/imgs/engines/google.png">
         <div class="github">Google</div>
     </div>
     <div class="set" id="https://juejin.cn/search?query=">
-        <img src="../assets/imgs/engines/juejin.svg">
+        <img src="/assets/imgs/engines/juejin.svg">
         <div class="github">掘金</div>
     </div>
     <div class="set" id="https://www.npmjs.com/search?q=">
-        <img src="../assets/imgs/engines/npm.png">
+        <img src="/assets/imgs/engines/npm.png">
         <div class="github">npm</div>
     </div>
     <div class="set" id="https://stackoverflow.com/nocaptcha?s=">
-        <img src="../assets/imgs/engines/stackoverflow.png">
+        <img src="/assets/imgs/engines/stackoverflow.png">
         <div class="github">StackOverflow</div>
     </div>
 
     <div class="set" id="https://so.toutiao.com/search?dvpf=pc&keyword=">
-        <img src="../assets/imgs/engines/toutiao.png">
+        <img src="/assets/imgs/engines/toutiao.png">
         <div class="github">头条搜索</div>
     </div>
 
     <div class="set" id="https://so.csdn.net/so/search?&t=&u=&q=">
-        <img src="../assets/imgs/engines/csdn.jpg">
+        <img src="/assets/imgs/engines/csdn.jpg">
         <div class="github">CSDN</div>
     </div>
 
     <div class="set" id="https://search.gitee.com/?q=">
-        <img src="../assets/imgs/engines/gitee.ico">
+        <img src="/assets/imgs/engines/gitee.ico">
         <div class="github">Gitee</div>
     </div>
     <div class="set" id="https://zzk.cnblogs.com/s?w=">
-        <img src="../assets/imgs/engines/bokeyuan.png">
+        <img src="/assets/imgs/engines/bokeyuan.png">
         <div class="github">博客园</div>
     </div>
 

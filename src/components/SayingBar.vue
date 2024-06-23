@@ -20,7 +20,7 @@ export default {
         
         loadSaying(){
             var _this = this
-            window.$.get('./src/assets/json/sayingi.json',function(res){
+            window.$.get('/assets/json/sayingi.json',function(res){
                 _this.sayingData=res.data
                 _this.sayingData=_this.sayingData[Math.floor(Math.random() * _this.sayingData.length)]
                 window.$('.saying').text('「 '+_this.sayingData['content']+'」')
